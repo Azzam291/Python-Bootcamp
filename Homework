@@ -1,0 +1,19 @@
+# This line if for calculating the number of study days,hours,mintues,seconds
+Study_days = input('Enter how many days you have studied: ')
+print('Your study days are :', Study_days,'days', '\nYour study hours are :' , int(Study_days)* 8,'hours', 
+      '\nYour study mintues are: ', int(Study_days)* 8*60,'minutes', '\nYour study seconds are: ',
+      int(Study_days)* 8*60*60,'seconds')
+      
+
+# This line is for converting Fahrenheit to Celsius
+F_degree = input("Enter the weather degree in Fahrenheit: ")
+print('The weather degree is ', F_degree,' in Fahrenheit',
+      '\nAnd',
+      '\nThe weather degree is ', (int(F_degree)-32)*5/9, 'in Celsius')
+      
+
+# This line is for calculating the VAT 
+tax = input('Enter the amount of Amazon purshase in SR: ')
+print('The tax of',tax,'SR is',int(tax)*0.15,'SR which comes in total',int(tax)+int(tax)*0.15)
+
+
